@@ -6,6 +6,7 @@
   "homepage": "https://rohillanisha.github.io/show-some-reaction-1/",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "deploy": "npx gh-pages -d build",
     "preview": "vite preview"
