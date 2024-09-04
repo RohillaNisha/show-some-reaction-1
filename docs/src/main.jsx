@@ -36,7 +36,8 @@ const router = createBrowserRouter(
       <Route path="forgotpassword" element={<ForgotPasswordForm />} />
       <Route path="cart" element={<ShoppingCart />} />
     </Route>
-  ])
+  ]),
+  {basename: "/show-some-reaction-1/"}
 );
 
 
