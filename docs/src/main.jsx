@@ -23,7 +23,7 @@ import EventSelectionPage from "./Components/EventSelectionPage.jsx";
 const router = createBrowserRouter(
 
   createRoutesFromElements([
-    <Route path="/show-some-reaction-1/" element={<Root />} errorElement={<ErrorPage />}>
+    <Route path="/" element={<Root />} errorElement={<ErrorPage />}>
       <Route index element={<Home />} />
       <Route path="eventlist" element={<EventList />} />
       <Route path=":name" element={<Event />} />
