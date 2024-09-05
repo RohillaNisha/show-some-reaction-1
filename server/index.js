@@ -46,7 +46,7 @@ router.use('/', apiDescription)
 app.use(router)
 
 // start
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(host)
     console.log('server running on port ' + port)
 })
