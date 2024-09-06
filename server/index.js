@@ -26,6 +26,7 @@ app.use(session({
 }))
 
 // set to true to bypass 2FA verification (do this in dev only)
+
 const bypass2FA = true
 
 // set bypass 2FA verification 
